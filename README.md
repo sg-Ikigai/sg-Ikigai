@@ -31,11 +31,10 @@ choice on a small tabular classifier.
 
 ### How I work
 
-Judge a model on its variance, not on its best run. In my bachelor thesis the
-RNNs looked competitive at their best and came apart when I repeated them, so I
-reported them as not dependable whatever the headline error said. The
-forecasting work above came from the same instinct: a result does not get
-better because a lot of effort has gone into it.
+Judge a model on its variance, not on its best run. A model whose headline
+error looks competitive but that behaves differently every time you retrain it
+is not dependable, and saying so is more useful than shipping it. A result does
+not get better because a lot of effort has gone into it.
 
 ### Stack
 
