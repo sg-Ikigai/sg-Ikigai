@@ -14,20 +14,23 @@ choice on a small tabular classifier.
 
 ### What I build
 
-- **A cutting-plan optimiser**  
-  A linear program in PuLP, packaged to run on the production floor without a
-  Python install. What made it work was not the optimisation. It was that the
-  people running it could see the reasoning and test alternatives themselves.
+- **Reinforcement learning for building control**  
+  Project lead on a research project applying reinforcement learning to comfort
+  conditions in buildings. I ran the workstream: coordinating the activities,
+  steering the technical direction, and building the simulation-based
+  experimentation pipeline with PPO, Gymnasium and stable-baselines3.
 
-- **Reinforcement learning for shading control**  
-  PPO agents on Radiance-simulated data, with reward functions covering thermal
-  comfort and daylight glare. Taken to a validated proof of concept and
-  prepared for trials on real hardware.
+- **Manufacturing optimisation and scenario planning**  
+  Formulated a constrained optimisation problem as a linear program in Python
+  and PuLP, then wrapped it in something people could actually use: the
+  recommendation first, scenario comparison underneath, packaged to run without
+  a Python install.
 
-- **A demand forecasting pipeline**  
-  A SARIMA baseline first, LSTMs a year later, every horizon benchmarked
-  against that baseline rather than against intuition. The longer horizon was
-  usable, the short ones were not, and that is what I reported.
+- **Time-series forecasting**  
+  A pipeline comparing ARIMA and SARIMA baselines against LSTM models in
+  TensorFlow. The baseline existed to answer whether the extra complexity was
+  justified at all, which is a question worth asking early rather than after
+  you have paid for the answer.
 
 ### How I work
 
