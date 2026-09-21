@@ -1,20 +1,24 @@
-### What happens after the notebook?
+### Judge a model on its variance, not on its best run
 
-That is the part I care about. I'm a data scientist and ML engineer in
-industrial R&D: buildings, energy, and the systems that control them. The
-problems get interesting once a model has to survive contact with someone who
-didn't build it.
+I'm a data scientist working on forecasting and optimisation in energy and
+industry. Buildings were my laboratory: until May 2026 that meant industrial
+R&D, and the systems that control them. The problems get interesting once a
+model has to survive contact with someone who didn't build it.
 
 Most of that work belongs to a former employer, so the write-ups live on
 [shpetimgashi.com](https://shpetimgashi.com). What sits in this account is what
-I can publish in full, starting with
-[model-factory-heart-diseases](https://github.com/sg-Ikigai/model-factory-heart-diseases),
-a two-phase ablation study isolating the effect of regularisation and optimiser
-choice on a small tabular classifier.
+I can publish in full.
+
+[model-factory-heart-diseases](https://github.com/sg-Ikigai/model-factory-heart-diseases)
+is a controlled ablation on a small tabular classifier. The dataset is the
+point: 723 of its 1,025 rows are exact duplicates, so 70.5% of it has to go
+before any score means anything. Every configuration is reported with its
+standard deviation across folds and seeds, because a model that scores well
+once and differently on retrain has not scored well.
 
 ### What I build
 
-- **Reinforcement learning for building control**  
+- **Reinforcement Learning for Comfort Conditions in Buildings**  
   Project lead on a research project applying reinforcement learning to comfort
   conditions in buildings. I ran the workstream: coordinating the activities,
   steering the technical direction, and building the simulation-based
