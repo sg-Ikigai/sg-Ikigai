@@ -25,10 +25,7 @@ once and differently on retrain has not scored well.
   experimentation pipeline with PPO, Gymnasium and stable-baselines3.
 
 - **Manufacturing optimisation and scenario planning**  
-  Formulated a constrained optimisation problem as a linear program in Python
-  and PuLP, then wrapped it in something people could actually use: the
-  recommendation first, scenario comparison underneath, packaged to run without
-  a Python install.
+  Further developed a colleague's linear program in Python and PuLP and built what people use around it: the recommendation first, the scenario comparison underneath, and a CI gate that checks reference cases before every release.
 
 - **Time-series forecasting**  
   A pipeline comparing ARIMA and SARIMA baselines against LSTM models in
