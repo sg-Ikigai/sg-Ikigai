@@ -24,8 +24,8 @@ once and differently on retrain has not scored well.
   steering the technical direction, and building the simulation-based
   experimentation pipeline with PPO, Gymnasium and stable-baselines3.
 
-- **Manufacturing optimisation and scenario planning**  
-  Further developed a colleague's linear program in Python and PuLP and built what people use around it: the recommendation first, the scenario comparison underneath, and a CI gate that checks reference cases before every release.
+- **Manufacturing optimisation**  
+  Further developed a colleague's linear program in Python and PuLP and built what people use around it: a Streamlit and Flask interface with KPIs and an overview by material group, and a CI gate that checks reference cases before every release.
 
 - **Time-series forecasting**  
   A pipeline comparing ARIMA and SARIMA baselines against LSTM models in
