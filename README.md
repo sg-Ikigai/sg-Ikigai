@@ -1,7 +1,7 @@
 ### Judge a model on its variance, not on its best run
 
-I'm a data scientist working on forecasting and optimisation in energy and
-industry. Buildings were my laboratory: until May 2026 that meant industrial
+I'm a data scientist working on forecasting and optimisation. Buildings
+were my laboratory: until May 2026 that meant industrial
 R&D, and the systems that control them. The problems get interesting once a
 model has to survive contact with someone who didn't build it.
 
